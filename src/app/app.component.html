@@ -1,0 +1,46 @@
+<h1>First Angular App</h1>
+<h2>{{ title }}</h2>
+<p>{{2+1}}</p>
+
+<!-- <img [src]=" imgUrl" alt=""> -->
+
+<!--<button disabled = "{{isDisabled}}">Disable using string Interpolation</button>
+<button [disabled] = "isDisabled">Disable using Property Binding</button>-->
+
+<!-- class Binding-->
+
+<!--<button 
+[class.active]="isActive" 
+[class.no-active] = "!isActive"
+[class.active-border] = "isActive"
+[class.no-active-border] = "!isActive"
+> Click me</button>
+
+<button [class.apple]="fruitName == 'Apple'">Fruit Ninja</button>-->
+
+<!--style binding
+<button 
+[style.backgroundColor] = "isActive? 'red' : 'green' "
+[style.border]="isActive? '3px solid yellow' : '' "
+>Click</button>
+
+<button [class.active]="isActive">Class Binding</button>-->
+
+<!--Event Binding
+<button (mouseover)="buttonClick()">Click Me</button>
+
+<input type="text" (keyup)="keyEnter($event)">
+
+<input type ="text" (keyup.enter)="keyupFilturing(user)" #user id="userInput">-->
+
+<!--Two way data binding-->
+
+<!--<input type="text" [value]="userName" #username (keyup.enter)="updateUserName(username)">
+
+<input type="text" [(ngModel)]="userName">
+<h3>{{userName}}</h3>-->
+
+<!--one-way and two way Data binding
+<input type="text" [value] ='textValue' (key.enter)="onKeyup()">
+<br><br>
+<input type="text" [(ngModel)] = 'textValue' (key.enter)="onKeyup()">-->
